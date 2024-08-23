@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RE UNIVERSITY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images\logo.png" alt="Logo"></a>
+            <div class="nav-link" id="navlink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="login page.html">LOGIN</a></li>
+                     </ul>
+                        </div>
+            </div>
+            <i class="fa fa-compass" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!----About us Content-->
+    <section class="About-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest UNIVERSITY</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sequi, quo voluptatum minima veniam labore harum placeat tempora nemo est excepturi voluptates quibusdam pariatur molestias eos eveniet quia omnis commodi?</p>
+                <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg" alt="About Image">
+            </div>
+        </div>    
+    </section>
+
+    <!------footer------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse dignissimos eligendi, harum repellendus quo quas optio quidem voluptate maiores maxime nihil<br> velit nisi minima. Nam fugiat magnam rerum asperiores nemo?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart"></i>RE EDVERS</p>
+    </section>
+
+    <!------javascript for toggle menu------->
+    <script>
+        var navlink = document.getElementById("navlink");
+
+        function ShowMenu() {
+            navlink.style.right = "0";
+        }
+
+        function hideMenu() {
+            navlink.style.right = "-200px";
+        }   
+    </script>
+</body>
+</html>

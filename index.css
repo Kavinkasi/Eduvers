@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: inline-flex;
+    padding: calc(left);
+}
